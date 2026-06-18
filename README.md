@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TVSL AI-Powered Workforce Platform
 
 A full-stack Next.js application for **Tech Valley Solutions Ltd.** (tvsl-bd.com) — an AI-powered employee and recruitment management system.
@@ -152,3 +153,6 @@ tvsl/
 # GEMINI_API_KEY
 ```
 
+=======
+# Workforce-Management-and-Recruitment-Platform-for-Tech-Valley-Solutions-Ltd
+>>>>>>> 658ed18c47f3f9a25be3a398557197e275d3a7bd
