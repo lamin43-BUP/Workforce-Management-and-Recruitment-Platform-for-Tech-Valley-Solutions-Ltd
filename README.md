@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 # TVSL AI-Powered Workforce Platform
 
 A full-stack Next.js application for **Tech Valley Solutions Ltd.** (tvsl-bd.com) — an AI-powered employee and recruitment management system.
-
----
 
 ## 🚀 Getting Started
 
