@@ -1,5 +1,5 @@
 -- ============================================================
--- TVSL Platform — Supabase Database Schema
+-- TVSL Platform — Supabase Database Schemaa
 -- Run this ONCE in your Supabase SQL Editor
 -- https://supabase.com → Project → SQL Editor → New Query
 -- ============================================================
