@@ -153,7 +153,7 @@ export default function EmployeeChat() {
           <div ref={bottomRef} />
         </div>
 
-        {/* Input (WIDER + better spacing) */}
+        {/* Input (WIDER  better spacing) */}
         <div
           style={{
             padding: '14px 18px',
