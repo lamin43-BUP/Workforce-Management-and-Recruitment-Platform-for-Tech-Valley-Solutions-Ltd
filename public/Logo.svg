@@ -1,0 +1,12 @@
+<svg width="160" height="48" viewBox="0 0 160 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#1e3a8a"/>
+  <circle cx="24" cy="14" r="4.5" fill="white"/>
+  <circle cx="12" cy="34" r="4.5" fill="white" opacity="0.85"/>
+  <circle cx="36" cy="34" r="4.5" fill="white" opacity="0.85"/>
+  <line x1="24" y1="18.5" x2="12" y2="29.5" stroke="white" strokeWidth="2" opacity="0.6"/>
+  <line x1="24" y1="18.5" x2="36" y2="29.5" stroke="white" strokeWidth="2" opacity="0.6"/>
+  <line x1="16" y1="34" x2="32" y2="34" stroke="white" strokeWidth="2" opacity="0.6"/>
+  <circle cx="24" cy="24" r="2" fill="#38bdf8" opacity="0.9"/>
+  <text x="58" y="22" font-family="Arial,sans-serif" font-weight="800" font-size="18" fill="#1e3a8a" letter-spacing="-0.5">TVSL</text>
+  <text x="58" y="38" font-family="Arial,sans-serif" font-weight="500" font-size="11" fill="#64748b">Tech Valley Solutions</text>
+</svg>

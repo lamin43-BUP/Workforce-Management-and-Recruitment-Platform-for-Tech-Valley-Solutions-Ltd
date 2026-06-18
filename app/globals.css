@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+/* ============================================================
+   TVSL Design System — Tech Valley Solutions Ltd.
+   ============================================================ */
+
+:root {
+  --bg: oklch(0.985 0.002 240);
+  --surface: #ffffff;
+  --surface-2: oklch(0.975 0.004 240);
+  --surface-3: oklch(0.955 0.005 240);
+  --border: oklch(0.92 0.006 240);
+  --border-strong: oklch(0.86 0.008 240);
+  --ink: oklch(0.18 0.02 260);
+  --ink-2: oklch(0.32 0.015 260);
+  --muted: oklch(0.52 0.012 250);
+  --muted-2: oklch(0.66 0.01 250);
+
+  --primary: oklch(0.38 0.17 260);
+  --primary-ink: #ffffff;
+  --primary-soft: oklch(0.95 0.025 260);
+  --primary-soft-ink: oklch(0.32 0.13 260);
+  --primary-ring: oklch(0.38 0.17 260 / 0.18);
+
+  --success: oklch(0.52 0.14 155);
+  --success-soft: oklch(0.95 0.035 155);
+  --warning: oklch(0.68 0.14 75);
+  --warning-soft: oklch(0.96 0.04 80);
+  --danger: oklch(0.52 0.18 25);
+  --danger-soft: oklch(0.96 0.03 25);
+  --info: oklch(0.52 0.14 230);
+  --info-soft: oklch(0.94 0.03 230);
+
+  --font-sans: 'Inter', 'Sora', sans-serif;
+  --font-display: 'Sora', 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --r-sm: 6px; --r-md: 10px; --r-lg: 14px; --r-xl: 20px;
+  --sh-xs: 0 1px 4px oklch(0 0 0 / 0.06);
+  --sh-sm: 0 2px 8px oklch(0 0 0 / 0.08);
+  --sh-md: 0 4px 16px oklch(0 0 0 / 0.08);
+  --sh-lg: 0 8px 32px oklch(0 0 0 / 0.10);
+  --sh-pop: 0 20px 60px oklch(0 0 0 / 0.14);
+}
+
+[data-theme="dark"] {
+  --bg: oklch(0.14 0.02 260);
+  --surface: oklch(0.19 0.025 260);
+  --surface-2: oklch(0.22 0.025 260);
+  --surface-3: oklch(0.25 0.025 260);
+  --border: oklch(0.28 0.025 260);
+  --border-strong: oklch(0.34 0.025 260);
+  --ink: oklch(0.96 0.005 240);
+  --ink-2: oklch(0.80 0.008 240);
+  --muted: oklch(0.62 0.012 250);
+  --muted-2: oklch(0.50 0.01 250);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: var(--font-sans); background: var(--bg); color: var(--ink); -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4 { font-family: var(--font-display); }
+button { font-family: inherit; cursor: pointer; }
+input, textarea, select { font-family: inherit; color: inherit; }
+
+.scroll-pretty { scrollbar-width: thin; scrollbar-color: var(--border-strong) transparent; }
+.scroll-pretty::-webkit-scrollbar { width: 6px; }
+.scroll-pretty::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 8px; }
+.scroll-pretty::-webkit-scrollbar-track { background: transparent; }
+.mono { font-family: var(--font-mono); }
+
+:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; border-radius: 6px; }
+
+@keyframes tvsl-fade-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes tvsl-blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes tvsl-pulse { 0%, 100% { opacity: 0.3; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-2px); } }
+@keyframes tvsl-spin { to { transform: rotate(360deg); } }
+@keyframes tvsl-bar { from { width: 0; } }
+.animate-fade-in { animation: tvsl-fade-in 0.25s ease; }
