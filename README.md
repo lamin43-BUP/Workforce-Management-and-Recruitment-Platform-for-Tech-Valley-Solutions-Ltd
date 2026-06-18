@@ -116,9 +116,3 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-# GEMINI_API_KEY
-```
-
-=======
-# Workforce-Management-and-Recruitment-Platform-for-Tech-Valley-Solutions-Ltd
->>>>>>> 658ed18c47f3f9a25be3a398557197e275d3a7bd
